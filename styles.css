@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #09085a;
+}
+
+header, footer {
+    background-color: #800404;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #c00101;
+}
+h3 {
+    color: #c00101;
+}
+
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #8d0404;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #13043d;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Estilo para las imágenes */
+section img {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f085e;
+    color: rgb(219, 64, 64);
+}
+
+/* Estilos para las imágenes dentro de la tabla */
+table img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+table img:hover {
+    transform: scale(1.2);
+}
+
+/* Hacer la tabla responsiva */
+@media (max-width: 768px) {
+    table, th, td {
+        display: block;
+        width: 100%;
+    }
+    th {
+        display: none;
+    }
+    td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menu de navegacion -->
+    <nav>
+        <ul>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#tabla-css">Tabla de Atributos CSS</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seccion sobre CSS -->
+    <section id="css">
+        <h2>¿QUÉ ES CSS?</h2>
+        <p><strong>CSS</strong> es un lenguaje de estilo usado para definir la presentación de documentos escritos en HTML o XML. Su principal función es darle estilo y formato a los elementos dentro de una página web, como colores, fuentes, márgenes, espaciados, tamaños de texto, y la disposición de los elementos en la página.</p>
+    
+        <h3>¿Cómo funciona CSS?</h3>
+        <p>CSS trabaja a través de una serie de reglas que se aplican a los elementos HTML. Cada regla CSS tiene dos partes principales:</p>
+        <ol>
+            <li><strong>Selector</strong>: Define el elemento HTML al que se aplicarán las reglas. Por ejemplo, un div, h1, p, o cualquier otra etiqueta HTML.</li>
+            <li><strong>Propiedad y valor</strong>: Define qué aspecto visual tendrá el elemento. Por ejemplo, si se quiere cambiar el color de fondo de un elemento, se usaría la propiedad <code>background-color</code> con un valor como <code>red</code>.</li>
+        </ol>
+    
+        <h3>Propiedades comunes de CSS</h3>
+        <ul>
+            <li><strong>Color:</strong> color, background-color</li>
+            <li><strong>Tipografía:</strong> font-family, font-size, font-weight</li>
+            <li><strong>Tamaño y espaciado:</strong> width, height, padding, margin</li>
+            <li><strong>Posicionamiento:</strong> position, top, left, right, bottom</li>
+            <li><strong>Flexbox y Grid:</strong> display: flex, display: grid, justify-content, align-items</li>
+            <li><strong>Bordes y sombras:</strong> border, box-shadow</li>
+        </ul>
+    
+        <h3>Ventajas de usar CSS</h3>
+        <ol>
+            <li><strong>Separación de contenido y diseño:</strong> Permite que el HTML se enfoque solo en la estructura del contenido, mientras que el CSS se encarga de la presentación visual.</li>
+            <li><strong>Facilidad de mantenimiento:</strong> Si deseas cambiar el diseño de la página, puedes hacerlo editando solo el archivo CSS, lo que hace que las modificaciones sean más rápidas y fáciles de aplicar a todo el sitio.</li>
+            <li><strong>Rendimiento:</strong> Al mantener el diseño separado del contenido, los navegadores pueden almacenar el archivo CSS en caché, lo que mejora la velocidad de carga de la página.</li>
+        </ol>
+    
+        <h3>CSS y la Cascada</h3>
+        <p>La palabra "Cascading" (cascada) hace referencia al modo en que los navegadores resuelven conflictos cuando varias reglas CSS se aplican a un mismo elemento. El navegador sigue un conjunto de prioridades para decidir qué regla aplicar:</p>
+        <ol>
+            <li>Estilos en línea tienen la mayor prioridad.</li>
+            <li>Estilos internos (dentro del archivo HTML) tienen la segunda prioridad.</li>
+            <li>Estilos externos (en archivos .css) tienen la menor prioridad.</li>
+            <li>También se tiene en cuenta la especificidad del selector.</li>
+        </ol>
+    
+        <h3>Conclusión</h3>
+        <p>CSS es una herramienta poderosa para diseñar páginas web atractivas y funcionales. Aprender a usarlo adecuadamente te permite tener un control total sobre la apariencia de tu sitio web, mejorando la experiencia del usuario y facilitando la creación de diseños responsivos y dinámicos.</p>
+    <p> Si quieres saber mas sobre CSS dale click en la imagen donde podras encontrar mas informacion sobre CSS</p>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1200px-CSS3_logo.svg.png" alt="Logo CSS" width="100">
+        </a>
+    </section>
+    
+
+    <!-- Seccion sobre JavaScript -->
+    <section id="javascript">
+        <!-- Título principal -->
+        <h2>¿QUÉ ES JAVASCRIPT?</h2>
+    
+        <!-- Párrafo introductorio -->
+        <p>
+            <strong>JavaScript</strong> es un lenguaje de programación que se utiliza principalmente para crear interactividad en las páginas web. Es uno de los tres pilares del desarrollo web, junto con HTML y CSS, y permite hacer que las páginas web sean dinámicas y reactivas. A diferencia de HTML, que define la estructura de la página, y CSS, que define el estilo, JavaScript le da comportamiento a la página.
+        </p>
+    
+        <!-- Subtítulo: ¿Cómo funciona JavaScript? -->
+        <h3>¿Cómo funciona JavaScript?</h3>
+        <p>
+            JavaScript es un lenguaje de programación del lado del cliente, lo que significa que se ejecuta en el navegador del usuario. Esto permite que los desarrolladores web agreguen interactividad sin necesidad de recargar la página, haciendo que la experiencia de usuario sea más fluida.
+        </p>
+    
+        <!-- Características principales de JavaScript -->
+        <h3>Características principales de JavaScript</h3>
+        <ol>
+            <li><strong>Interactividad en la web:</strong> JavaScript permite agregar funcionalidades como formularios interactivos, validación de datos, animaciones, efectos visuales, juegos y mucho más.</li>
+            <li><strong>Lenguaje interpretado:</strong> En lugar de ser compilado, JavaScript es interpretado por el navegador, lo que significa que no necesitas compilar el código antes de ejecutarlo.</li>
+            <li><strong>Lenguaje dinámico:</strong> JavaScript no tiene un tipo de dato fijo, lo que significa que puedes trabajar con variables de cualquier tipo (números, cadenas de texto, objetos, etc.), y se adapta a diferentes tipos de datos durante la ejecución.</li>
+            <li><strong>Asíncrono:</strong> JavaScript puede manejar múltiples tareas al mismo tiempo, lo que lo hace ideal para tareas como llamadas a APIs o cargas de contenido sin interrumpir la experiencia del usuario. Esto se logra mediante características como callbacks, promesas y async/await.</li>
+        </ol>
+    
+        <!-- ¿Dónde se usa JavaScript? -->
+        <h3>¿Dónde se usa JavaScript?</h3>
+        <ul>
+            <li><strong>En el navegador:</strong> JavaScript es ejecutado principalmente en el navegador para hacer que las páginas web sean interactivas. Los navegadores modernos como Chrome, Firefox, Safari, etc., tienen un motor de JavaScript que interpreta y ejecuta el código.</li>
+            <li><strong>En el servidor:</strong> Con la llegada de Node.js, JavaScript también se puede ejecutar en el servidor. Esto ha permitido que los desarrolladores usen JavaScript tanto en el cliente como en el servidor, unificando el desarrollo de una aplicación web.</li>
+            <li><strong>En aplicaciones móviles y de escritorio:</strong> Usando tecnologías como React Native o Electron, JavaScript también se utiliza para desarrollar aplicaciones móviles y de escritorio.</li>
+        </ul>
+    
+        <!-- Conclusión -->
+        <h3>Conclusión</h3>
+        <p>
+            JavaScript es un lenguaje esencial en el desarrollo web moderno. Ofrece una amplia variedad de características que permiten crear páginas web interactivas y dinámicas, además de ser utilizado en el servidor y en aplicaciones móviles. Con su ecosistema de bibliotecas y frameworks, JavaScript sigue siendo uno de los lenguajes más populares y poderosos del desarrollo web.
+        </p>
+        <p> Si quieres saber mas sobre JAVASCRIPT dale click en la imagen donde podras encontrar mas informacion sobre JAVASCRIPT</p>
+       
+            <!-- Enlace y logo de JavaScript -->
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" alt="Logo JavaScript" width="100">
+        </a>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/h7kWA9rqNg4?si=srL7oPdCqyamhCS-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
+    </section>
+    
+
+    <!-- Tabla de atributos CSS -->        
+    <section id="tabla-css">
+        <h2>TABLA DE ATRIBUTOS CSS</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ATRIBUTO</th>
+                    <th>DESCRIPCION</th>
+                    <th>VALORES POSIBLES</th>
+                    <th>EJEMPLO DE USO </th>
+                    <th>IMAGEN REPRESENTATIVA</th>
+                    <th>FUENTE DE INFORMACION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>font-size</td>
+                    <td>Define el tamaño de la fuente.</td>
+                    <td>px, em, rem, %, etc.</td>
+                    <td><code>font-size: 16px;</code></td>
+                    <td><img src="1.png" alt="Ejemplo font-size" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/font-size" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>border-radius</td>
+                    <td>Redondea las esquinas de los elementos.</td>
+                    <td>px, em</td>
+                    <td><code>border-radius: 10px;</code></td>
+                    <td><img src="2.png" alt="Ejemplo border-radius" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/border-radius" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>display</td>
+                    <td>Especifica el tipo de visualización de un elemento.</td>
+                    <td>block, inline, inline-block, none</td>
+                    <td><code>display: block;</code></td>
+                    <td><img src="3.jpg" alt="Ejemplo display" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/display" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>flexbox</td>
+                    <td>Un modelo de diseño flexible para contenedores.</td>
+                    <td>flex, inline-flex</td>
+                    <td><code>display: flex;</code></td>
+                    <td><img src="4.png" alt="Ejemplo flexbox" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/flex" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>position</td>
+                    <td>Define el tipo de posicionamiento de un elemento.</td>
+                    <td>static, relative, absolute, fixed, sticky</td>
+                    <td><code>position: absolute;</code></td>
+                    <td><img src="5.png" alt="Ejemplo position" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/position" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>box-shadow</td>
+                    <td>Agrega una sombra alrededor de un elemento.</td>
+                    <td>h-shadow, v-shadow, blur, spread, color</td>
+                    <td><code>box-shadow: 10px 10px 5px rgba(0,0,0,0.5);</code></td>
+                    <td><img src="6.jpeg" alt="Ejemplo box-shadow" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/box-shadow" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>overflow</td>
+                    <td>Controla el contenido que se desborda de un contenedor.</td>
+                    <td>visible, hidden, scroll, auto</td>
+                    <td><code>overflow: hidden;</code></td>
+                    <td><img src="7.png" alt="Ejemplo overflow" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/overflow" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>z-index</td>
+                    <td>Controla el apilamiento de elementos.</td>
+                    <td>enteros</td>
+                    <td><code>z-index: 10;</code></td>
+                    <td><img src="8.jpg" alt="Ejemplo z-index" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/z-index" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>opacity</td>
+                    <td>Define la transparencia de un elemento.</td>
+                    <td>0 a 1</td>
+                    <td><code>opacity: 0.5;</code></td>
+                    <td><img src="9.jpg" alt="Ejemplo opacity" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/opacity" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>margin y padding</td>
+                    <td>Define el espacio exterior (margin) o interior (padding) de un elemento.</td>
+                    <td>px, em, rem</td>
+                    <td><code>margin: 20px;</code></td>
+                    <td><img src="10.jpg" alt="Ejemplo margin y padding" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/margin" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td>Define la tipografía del texto.</td>
+                    <td>serif, sans-serif, monospace, etc.</td>
+                    <td><code>font-family: Arial, sans-serif;</code></td>
+                    <td><img src="11.png" alt="Ejemplo font-family" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/font-family" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>width</td>
+                    <td>Define el ancho de un elemento.</td>
+                    <td>px, %, em</td>
+                    <td><code>width: 100px;</code></td>
+                    <td><img src="12.jpg" alt="Ejemplo width" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/width" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>height</td>
+                    <td>Define la altura de un elemento.</td>
+                    <td>px, %, em</td>
+                    <td><code>height: 200px;</code></td>
+                    <td><img src="13.png" alt="Ejemplo height" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/height" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>overflow</td>
+                    <td>Controla el contenido que se desborda de un contenedor.</td>
+                    <td>visible, hidden, scroll, auto</td>
+                    <td><code>overflow: hidden;</code></td>
+                    <td><img src="7.png" alt="Ejemplo overflow" /></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/overflow" target="_blank">MDN</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Mi Página Web, JUAN DAVID SANCHEZ SUAREZ</p>
+    </footer>
+
+</body>
+</html>
